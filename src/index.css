@@ -22,13 +22,13 @@
 @font-face {
   font-family: 'Cereal App';
   src: url('./Fonts/CerealApp/AirbnbCerealBlack.ttf') format('truetype');
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Cereal App';
   src: url('./Fonts/CerealApp/AirbnbCerealBold.ttf') format('truetype');
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
 }
 @font-face {
