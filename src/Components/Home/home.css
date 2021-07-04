@@ -13,8 +13,10 @@
     font-weight: 800;
 }
 .cc-hero-txt {
-    font-size: 14px;
-    margin: 1rem auto 2rem;
+    font-size: 13px;
+    margin: 1.25rem auto 2rem;
+    line-height: 23px;
+    letter-spacing: 0.3px;
 }
 .cc-hero-btn {
     background: #2F80ED;
