@@ -37,12 +37,6 @@
   font-weight: 800;
   font-style: normal;
 }
-@font-face {
-  font-family: 'Recoleta';
-  src: url('./Fonts/Recoleta/recoleta-regulardemo.otf') format('opentype');
-  font-weight: 800;
-  font-style: normal;
-}
 
 body {
   margin: 0;

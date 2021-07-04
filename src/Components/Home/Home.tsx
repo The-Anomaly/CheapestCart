@@ -47,9 +47,22 @@ import twitter from "../../assets/Twitter.png";
 import envelope from "../../assets/Message.png";
 import instagram from "../../assets/instagram.png";
 import whatsapp from "../../assets/whatsapp.png";
-
+import Footer from "../GeneralComponents/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import zigzag from "../../assets/zigzag.png";
 
 const Home = () => {
+  React.useEffect(() => {
+    window.scrollTo(-0, -0);
+    AOS.init({
+      duration: 800,
+      offset: 100,
+      delay: 50,
+      easing: "ease-in-out",
+    });
+    AOS.refresh();
+  }, [])
   return (
     <>
       <NavBar />
@@ -82,25 +95,25 @@ const Home = () => {
               1000+ <span>Satisfied Clients</span>
             </div>
             <div className="cc-sec2-pros">
-              <div className="cc-sec2-pros-list">
+              <div className="cc-sec2-pros-list" data-aos="fade-up">
                 <div className="cc-sec2-pros-list-icon">
                   <img src={secure} />
                 </div>
                 <p className="cc-sec2-pros-list-txt">Safe & Secure</p>
               </div>
-              <div className="cc-sec2-pros-list">
+              <div className="cc-sec2-pros-list" data-aos="fade-up">
                 <div className="cc-sec2-pros-list-icon">
                   <img src={clock} />
                 </div>
                 <p className="cc-sec2-pros-list-txt">24/7 Availability</p>
               </div>
-              <div className="cc-sec2-pros-list">
+              <div className="cc-sec2-pros-list" data-aos="fade-up">
                 <div className="cc-sec2-pros-list-icon">
                   <img src={money} />
                 </div>
                 <p className="cc-sec2-pros-list-txt">Fast Payment</p>
               </div>
-              <div className="cc-sec2-pros-list">
+              <div className="cc-sec2-pros-list" data-aos="fade-up">
                 <div className="cc-sec2-pros-list-icon">
                   <img src={help} />
                 </div>
@@ -109,7 +122,7 @@ const Home = () => {
             </div>
           </div>
           <div className="cc-sec2-2">
-            <div className="cc-sec2-exchange">
+            <div className="cc-sec2-exchange" data-aos="slide-right">
               <img src={exchange} alt="" />
               <img src={btc} alt="bitcoin" />
             </div>
@@ -138,7 +151,7 @@ const Home = () => {
             YOU THE BEST RATES!
           </h4>
           <div className="cc-sec3-grid">
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={bitcoin} alt="bitcoin" />
               <div className="cc-sec3-grid-item-details">
                 <p>Bitcoin</p>
@@ -146,7 +159,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={itunes} alt="itunes" />
               <div className="cc-sec3-grid-item-details">
                 <p>iTunes</p>
@@ -154,7 +167,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={nike} alt="nike" />
               <div className="cc-sec3-grid-item-details">
                 <p>Nike</p>
@@ -162,7 +175,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={amazon} alt="amazon" />
               <div className="cc-sec3-grid-item-details">
                 <p>Amazon</p>
@@ -170,7 +183,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={ebay} alt="ebay" />
               <div className="cc-sec3-grid-item-details">
                 <p>eBay</p>
@@ -178,7 +191,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={gplay} alt="google play" />
               <div className="cc-sec3-grid-item-details">
                 <p>Google Play</p>
@@ -186,7 +199,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={sephora} alt="sephora" />
               <div className="cc-sec3-grid-item-details">
                 <p>Sephora</p>
@@ -194,7 +207,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={visa} alt="visa" />
               <div className="cc-sec3-grid-item-details">
                 <p>Visa</p>
@@ -202,7 +215,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item"data-aos="fade-up">
               <img src={ps} alt="playstation" />
               <div className="cc-sec3-grid-item-details">
                 <p>Playstation</p>
@@ -210,7 +223,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={steam} alt="steam" />
               <div className="cc-sec3-grid-item-details">
                 <p>Steam</p>
@@ -218,7 +231,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={AE} alt="american express" />
               <div className="cc-sec3-grid-item-details">
                 <p>American Express</p>
@@ -226,7 +239,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={locker} alt="locker" />
               <div className="cc-sec3-grid-item-details">
                 <p>Locker</p>
@@ -234,7 +247,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={xbox} alt="xbox" />
               <div className="cc-sec3-grid-item-details">
                 <p>Xbox</p>
@@ -242,7 +255,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={vanilla} alt="vanilla" />
               <div className="cc-sec3-grid-item-details">
                 <p>Vanilla</p>
@@ -250,7 +263,7 @@ const Home = () => {
                 <button>Start Trading</button>
               </div>
             </div>
-            <div className="cc-sec3-grid-item">
+            <div className="cc-sec3-grid-item" data-aos="fade-up">
               <img src={alt} alt="alt coins" />
               <div className="cc-sec3-grid-item-details">
                 <p>Alt Coins</p>
@@ -281,7 +294,7 @@ const Home = () => {
             <p className="cc-sec4-txt">You can never go wrong with us</p>
             <button className="cc-sec4-btn">Start Trading</button>
           </div>
-          <img className="cc-woman" src={woman} alt="" />
+          <img className="cc-woman" src={woman} alt="" data-aos="zoom-out-up" />
         </section>
         <section className="cc-sec5">
           <h4 className="cc-sec5-ttl">Services we offer</h4>
@@ -360,7 +373,8 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <img className="cc-sec5-woman" src={woman2} alt="" />
+            <img className="cc-sec5-woman" src={woman2} alt="" data-aos="zoom-in-up" />
+            <img className="cc-sec5-line" src={zigzag} alt="connecting line" />
             <button className="cc-sec5-btn">Get in touch Now!</button>
           </div>
         </section>
@@ -398,10 +412,11 @@ const Home = () => {
                 </div>
             </div>
           </form>
-          <img className="cc-sec6-logo1" src={lightlogo} alt="cheapestcartlogo" />
-          <img className="cc-sec6-logo2" src={lightlogo} alt="cheapestcartlogo" />
+          <img className="cc-sec6-logo1" src={lightlogo} alt="cheapestcartlogo" data-aos="slide-up" />
+          <img className="cc-sec6-logo2" src={lightlogo} alt="cheapestcartlogo" data-aos="slide-down" />
         </section>
       </div>
+      <Footer />
     </>
   );
 };
