@@ -55,7 +55,7 @@ import zigzag from "../../assets/zigzag.png";
 const Home = () => {
   const [state, setState] = React.useState({
     num: document.getElementById("num")?.innerText,
-  })
+  });
   const { num } = state;
   let i = 0;
   React.useEffect(() => {
@@ -68,24 +68,31 @@ const Home = () => {
     });
     AOS.refresh();
     const increase = () => {
-      if(i < 1000) {
-        i+=5;
-        setState({
-          ...state,
-          num: JSON.stringify(i),
-        })
+      if (i < 1000) {
+        if (i < 100) {
+          i+=5;
+          setState({
+            ...state,
+            num: JSON.stringify(i),
+          });
+        } else {
+          i += 50;
+          setState({
+            ...state,
+            num: JSON.stringify(i),
+          });
+        }
       }
-      else {i=0}
-    }
+    };
     setTimeout(() => {
-      setInterval(increase, 75);
-    }, 1000);
+      setInterval(increase, 50);
+    }, 1500);
   }, []);
   return (
     <>
       <NavBar />
       <div className="cc-home-container">
-        <section className="cc-hero-sec">
+        <section className="cc-hero-sec" id="home">
           <h1 className="cc-hero-ttl">The future is here, don't be left out</h1>
           <p className="cc-hero-txt">
             Cheapestcart Inc. Your number 1 platform for all sorts of trades!
@@ -164,7 +171,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="cc-sec3">
+        <section className="cc-sec3" >
           <p className="cc-sec3-txt">We offer you a cocktail of varieties</p>
           <h4 className="cc-sec3-hd">
             Life is all about varieties, we are in the mix of it all BRINGING
@@ -350,7 +357,7 @@ const Home = () => {
           </div>
           <img className="cc-woman" src={woman} alt="" data-aos="zoom-out-up" />
         </section>
-        <section className="cc-sec5">
+        <section className="cc-sec5" id="services">
           <h4 className="cc-sec5-ttl">Services we offer</h4>
           <p className="cc-sec5-txt">
             We told you about varieties, at Cheapest Cart Inc, your one stop for
@@ -439,7 +446,7 @@ const Home = () => {
             </a>
           </div>
         </section>
-        <section className="cc-sec6">
+        <section className="cc-sec6" id="contact">
           <h4 className="cc-sec5-ttl">Contact us </h4>
           <p className="cc-sec5-txt">
             We are available 24/7 to take your tradings

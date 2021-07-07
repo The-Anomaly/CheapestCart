@@ -16,9 +16,9 @@ const NavBar = () => {
           </div>
 
           <nav className="cc-nav-list">
-            <span>Home</span>
-            <span>Services</span>
-            <span>Contact Us</span>
+            <a href="/#home"><span>Home</span></a>
+            <a href="/#services"><span>Services</span></a>
+            <a href="/#contact"><span>Contact Us</span></a>
             <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20a%20trade">
               <button>Start Trading</button>
             </a>
