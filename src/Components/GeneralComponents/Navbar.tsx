@@ -15,7 +15,7 @@ const NavBar = () => {
                     <span>Home</span>
                     <span>Services</span>
                     <span>Contact Us</span>
-                    <button>Start Trading</button>
+                    <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20a%20trade"><button>Start Trading</button></a>
                 </nav>
             </div>
             <div className="cc-nav-mobile"></div>

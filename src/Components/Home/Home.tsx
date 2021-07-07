@@ -74,7 +74,7 @@ const Home = () => {
             <br />
             Rapid confirmation and fast payout
           </p>
-          <button className="cc-hero-btn">Start Trading</button>
+          <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20a%20trade"><button className="cc-hero-btn">Start Trading</button></a>
           <div className="cc-hero-imgs">
             <img className="cc-hero-img" src={future} alt="" />
             <img className="cryp cryp1" src={cryp1} alt="cryptocurrency" />
@@ -97,25 +97,25 @@ const Home = () => {
             <div className="cc-sec2-pros">
               <div className="cc-sec2-pros-list" data-aos="fade-up">
                 <div className="cc-sec2-pros-list-icon">
-                  <img src={secure} />
+                  <img src={secure} alt="" />
                 </div>
                 <p className="cc-sec2-pros-list-txt">Safe & Secure</p>
               </div>
               <div className="cc-sec2-pros-list" data-aos="fade-up">
                 <div className="cc-sec2-pros-list-icon">
-                  <img src={clock} />
+                  <img src={clock} alt="" />
                 </div>
                 <p className="cc-sec2-pros-list-txt">24/7 Availability</p>
               </div>
               <div className="cc-sec2-pros-list" data-aos="fade-up">
                 <div className="cc-sec2-pros-list-icon">
-                  <img src={money} />
+                  <img src={money} alt="money bag" />
                 </div>
                 <p className="cc-sec2-pros-list-txt">Fast Payment</p>
               </div>
               <div className="cc-sec2-pros-list" data-aos="fade-up">
                 <div className="cc-sec2-pros-list-icon">
-                  <img src={help} />
+                  <img src={help} alt="" />
                 </div>
                 <p className="cc-sec2-pros-list-txt">Friendly Support</p>
               </div>
@@ -156,7 +156,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Bitcoin</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20bitcoin"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -164,7 +164,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>iTunes</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20itunes"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -172,7 +172,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Nike</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20nike"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -180,7 +180,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Amazon</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20shop%20on%20amazon"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -188,7 +188,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>eBay</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20shop%20on%20ebay"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -196,7 +196,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Google Play</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%make%20a%20payment%20on%20google%20play"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -204,7 +204,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Sephora</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20sephora"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -212,7 +212,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Visa</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20visa"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item"data-aos="fade-up">
@@ -220,7 +220,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Playstation</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20playstation"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -228,7 +228,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Steam</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20steam"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -236,7 +236,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>American Express</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20american%20express"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -244,7 +244,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Locker</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20locker"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -252,7 +252,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Xbox</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20xbox"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -260,7 +260,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Vanilla</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20vanilla"><button>Start Trading</button></a>
               </div>
             </div>
             <div className="cc-sec3-grid-item" data-aos="fade-up">
@@ -268,11 +268,11 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Alt Coins</p>
                 <p>You can click the button to start trading right a way</p>
-                <button>Start Trading</button>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20alt%20coins"><button>Start Trading</button></a>
               </div>
             </div>
           </div>
-          <button className="cc-sec3-btn">Others</button>
+          <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading"><button className="cc-sec3-btn">Others</button></a>
         </section>
         <section className="cc-sec4">
           <div className="cc-sec2-info">
@@ -292,7 +292,7 @@ const Home = () => {
               <li>Friendly Bonus etc</li>
             </ul>
             <p className="cc-sec4-txt">You can never go wrong with us</p>
-            <button className="cc-sec4-btn">Start Trading</button>
+            <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading"><button className="cc-sec4-btn">Start Trading</button></a>
           </div>
           <img className="cc-woman" src={woman} alt="" data-aos="zoom-out-up" />
         </section>
@@ -375,7 +375,7 @@ const Home = () => {
             </div>
             <img className="cc-sec5-woman" src={woman2} alt="" data-aos="zoom-in-up" />
             <img className="cc-sec5-line" src={zigzag} alt="connecting line" />
-            <button className="cc-sec5-btn">Get in touch Now!</button>
+            <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading"><button className="cc-sec5-btn">Get in touch Now!</button></a>
           </div>
         </section>
         <section className="cc-sec6">
@@ -387,27 +387,27 @@ const Home = () => {
             <input className="cc-sec6-form-input" type="text" name="name" placeholder="Enter your Full Name" />
             <input className="cc-sec6-form-input" type="email" name="email" placeholder="Enter your Email" />
             <textarea className="cc-sec6-form-input cc-sec6-form-txtarea" name="message" placeholder="Enter your Message"></textarea>
-            <button className="cc-sec6-form-btn">Leave a Message</button>
+            <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading"><button className="cc-sec6-form-btn">Leave a Message</button></a>
             <p className="cc-sec6-form-or">or</p>
             <div className="cc-sec6-form-socials">
-                <div className="cc-sec6-form-socials-item">
-                    <div><img src={phone} /></div>
+            <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading"><div className="cc-sec6-form-socials-item">
+                    <div><img src={phone} alt="" /></div>
                     <p>Phone</p>
-                </div>
-                <div className="cc-sec6-form-socials-item" >
-                    <div><img src={envelope} /></div>
+                </div></a>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading"><div className="cc-sec6-form-socials-item" >
+                    <div><img src={envelope} alt="" /></div>
                     <p>Email</p>
-                </div>
-                <div className="cc-sec6-form-socials-item">
-                    <div><img src={twitter} /></div>
+                </div></a>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading"><div className="cc-sec6-form-socials-item">
+                    <div><img src={twitter} alt="" /></div>
                     <p>Twitter</p>
-                </div>
-                <div className="cc-sec6-form-socials-item">
-                    <div><img src={whatsapp}  /></div>
+                </div></a>
+                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading"><div className="cc-sec6-form-socials-item">
+                    <div><img src={whatsapp} alt=""  /></div>
                         <p>Whatsapp</p>
-                </div>
+                </div></a>
                 <div className="cc-sec6-form-socials-item">
-                    <div><img src={instagram} /></div>
+                    <div><img src={instagram} alt="" /></div>
                         <p>Instagram</p>
                 </div>
             </div>

@@ -59,10 +59,10 @@ const Footer = () => {
         <div className="cc-ftr-cpy">
             <p>© Cheapest Cart Inc. 2021, All Rights Reserved</p>
             <div className="cc-ftr-socials">
-                <img src={whatsapp} alt="whatsapp" />
-                <img src={twitter} alt="twitter" />
-                <img src={fb} alt="facebook" />
-                <img src={google} alt="google" />
+            <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading"><img src={whatsapp} alt="whatsapp" /></a>
+            <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading"><img src={twitter} alt="twitter" /></a>
+            <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading"><img src={fb} alt="facebook" /></a>
+            <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading"><img src={google} alt="google" /></a>
             </div>
         </div>
       </footer>
