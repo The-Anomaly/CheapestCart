@@ -99,7 +99,7 @@ const Home = () => {
             <br />
             Rapid confirmation and fast payout
           </p>
-          <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20a%20trade">
+          <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20a%20trade">
             <button className="cc-hero-btn">Start Trading</button>
           </a>
           <div className="cc-hero-imgs">
@@ -183,7 +183,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Bitcoin</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20bitcoin">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20bitcoin">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -193,7 +193,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>iTunes</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20itunes">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20itunes">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -203,7 +203,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Nike</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20nike">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20nike">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -213,7 +213,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Amazon</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20shop%20on%20amazon">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20shop%20on%20amazon">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -223,7 +223,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>eBay</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20shop%20on%20ebay">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20shop%20on%20ebay">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -233,7 +233,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Google Play</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%make%20a%20payment%20on%20google%20play">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%make%20a%20payment%20on%20google%20play">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -243,7 +243,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Sephora</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20sephora">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20sephora">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -253,7 +253,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Visa</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20visa">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20visa">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -263,7 +263,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Playstation</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20playstation">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20playstation">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -273,7 +273,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Steam</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20steam">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20steam">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -283,7 +283,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>American Express</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20american%20express">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20american%20express">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -293,7 +293,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Locker</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20locker">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20locker">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -303,7 +303,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Xbox</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20xbox">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20xbox">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -313,7 +313,7 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Vanilla</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20vanilla">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20vanilla">
                   <button>Start Trading</button>
                 </a>
               </div>
@@ -323,13 +323,13 @@ const Home = () => {
               <div className="cc-sec3-grid-item-details">
                 <p>Alt Coins</p>
                 <p>You can click the button to start trading right a way</p>
-                <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20alt%20coins">
+                <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20sell%20alt%20coins">
                   <button>Start Trading</button>
                 </a>
               </div>
             </div>
           </div>
-          <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
+          <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
             <button className="cc-sec3-btn">Others</button>
           </a>
         </section>
@@ -351,7 +351,7 @@ const Home = () => {
               <li>Friendly Bonus etc</li>
             </ul>
             <p className="cc-sec4-txt">You can never go wrong with us</p>
-            <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
+            <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
               <button className="cc-sec4-btn">Start Trading</button>
             </a>
           </div>
@@ -441,7 +441,7 @@ const Home = () => {
               data-aos="zoom-in-up"
             />
             <img className="cc-sec5-line" src={zigzag} alt="connecting line" />
-            <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
+            <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
               <button className="cc-sec5-btn">Get in touch Now!</button>
             </a>
           </div>
@@ -469,12 +469,12 @@ const Home = () => {
               name="message"
               placeholder="Enter your Message"
             ></textarea>
-            <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
+            <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
               <button className="cc-sec6-form-btn">Leave a Message</button>
             </a>
             <p className="cc-sec6-form-or">or</p>
             <div className="cc-sec6-form-socials">
-              <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
+              <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
                 <div className="cc-sec6-form-socials-item">
                   <div>
                     <img src={phone} alt="" />
@@ -482,7 +482,7 @@ const Home = () => {
                   <p>Phone</p>
                 </div>
               </a>
-              <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
+              <a target="_blank" href="">
                 <div className="cc-sec6-form-socials-item">
                   <div>
                     <img src={envelope} alt="" />
@@ -490,7 +490,7 @@ const Home = () => {
                   <p>Email</p>
                 </div>
               </a>
-              <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
+              <a target="_blank" href="https://twitter.com/cheapestcartinc">
                 <div className="cc-sec6-form-socials-item">
                   <div>
                     <img src={twitter} alt="" />
@@ -498,7 +498,7 @@ const Home = () => {
                   <p>Twitter</p>
                 </div>
               </a>
-              <a href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
+              <a target="_blank" href="https://wa.me/2348032912487?text=Hello,%20I%20want%20to%20start%20trading">
                 <div className="cc-sec6-form-socials-item">
                   <div>
                     <img src={whatsapp} alt="" />
@@ -506,12 +506,14 @@ const Home = () => {
                   <p>Whatsapp</p>
                 </div>
               </a>
+              <a target="_blank" href="https://instagram.com/cheapestcartinc_">
               <div className="cc-sec6-form-socials-item">
                 <div>
                   <img src={instagram} alt="" />
                 </div>
                 <p>Instagram</p>
               </div>
+              </a>
             </div>
           </form>
           <img
