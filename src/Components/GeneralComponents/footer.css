@@ -77,4 +77,19 @@
     .cc-footer-items .cc-nav-logo {
         justify-content: center;
     }
+    .cc-ftr-socials {
+    position: absolute;
+    margin-bottom: 5.5rem;
+    left: calc(50% - 50px);
+    }
+    .cc-ftr-cpy p {
+        width: 100%;
+    text-align: center;
+    }
+    .cc-footer {
+        padding-bottom: 1rem;
+    }
+    .cc-footer hr {
+        margin: 10px 0;
+    }
 }
