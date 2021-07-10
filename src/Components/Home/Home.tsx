@@ -174,7 +174,7 @@ const Home = () => {
         <section className="cc-sec3" >
           <p className="cc-sec3-txt">We offer you a cocktail of varieties</p>
           <h4 className="cc-sec3-hd">
-            Life is all about varieties, we are in the mix of it all BRINGING
+            Life is all about varieties, we are in the mix of it all <br/> BRINGING
             YOU THE BEST RATES!
           </h4>
           <div className="cc-sec3-grid">

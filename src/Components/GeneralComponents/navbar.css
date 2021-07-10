@@ -15,6 +15,7 @@
 .cc-nav-logo {
     display: flex;
     align-items: center;
+    text-align: left;
 }
 .cc-nav-logotxt {
     font-size: 12px;
@@ -54,4 +55,12 @@
 .cc-nav a {
     color: inherit !important;
     text-decoration: none !important;
+}
+@media(max-width: 1000px) {
+    .cc-nav-desktop {
+        font-size: 14px;
+    }
+    .cc-nav-list button {
+        font-size: 13px;
+    }
 }

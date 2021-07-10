@@ -59,3 +59,22 @@
     width: 14px;
     cursor: pointer;
 }
+
+@media(max-width: 800px) {
+    .cc-footer-items {
+        margin: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    .cc-footer-items-txt1 {
+        max-width: 300px;
+    width: 100%
+    }
+    .cc-footer-items > div {
+        margin-bottom: 2rem;
+    }
+    .cc-footer-items .cc-nav-logo {
+        justify-content: center;
+    }
+}
