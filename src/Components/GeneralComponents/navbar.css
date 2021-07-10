@@ -107,14 +107,19 @@
     align-items: center;
     margin-top: 2rem;
     margin-left: -2rem;
+    font-size: 19px;
     }
     .cc-navlist-mobile > a {
-        margin-bottom: 2rem;
+        margin-bottom: 2.5rem;
         width: 100%;
         text-align: center;
     }
     .cc-navlist-mobile button {
         width: 100%;
         height: 50px;
+        font-size: 16px;
+    }
+    .cc-nav-list span {
+        margin: 0;
     }
 }
