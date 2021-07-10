@@ -82,7 +82,7 @@
   }
   .cc-ftr-socials {
     position: absolute;
-    margin-bottom: 2.5rem;
+    bottom: 2.5rem;
     left: calc(50% - 50px);
   }
   .cc-ftr-cpy p {
@@ -91,6 +91,7 @@
   }
   .cc-footer {
     padding-bottom: 1rem;
+    position: relative;
   }
   .cc-footer hr {
     margin: 10px 0;
